@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css3属性认知</title>
+    <style>
+        .pardiv{
+            width:300px;
+            height:300px;
+            display: -webkit-box;
+            -webkit-box-align: center;
+            -webkit-box-pack: center;
+            border:1px solid #333;
+            
+            
+
+        }
+        .childiv{
+            width: 50px;
+            height: 50px;
+            border:1px solid #333;
+            margin-right:10px
+        }
+        。childiv2{
+            -moz-box-ordinal-group:1  
+        }
+    </style>
+    <!---  -webkit-box-direction:reverse;反向排列
+        -webkit-box-align: start|end|center|baseline|stretch;  
+        -webkit-box-flex: 1.0|2.0;子元素所占空间比例大小
+        -moz-box-ordinal-group:1|2|3  // 排序位置
+        -->
+</head>
+<body>
+    <div class="pardiv">
+        <div class="childiv">1</div>
+        <div class="childiv childiv2">2</div>
+        <div class="childiv">3</div>
+    </div>
+</body>
+</html>
