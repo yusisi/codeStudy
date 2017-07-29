@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flex布局</title>
+</head>
+<style>
+    .main{
+        display: flex;
+        background: #000
+    }
+    .main div{
+        width:30px;
+        height:100px;
+        background:#fff;
+        margin: 20px
+    }
+    .mian2{
+        display:inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        width:300px;
+        height:400px;
+        background:#f99;
+    }
+    .mian2 a {
+        width: 50px;
+        height: 100px;
+        margin: 10px;
+        padding: 10px;
+        display: inline-block;
+        background: #f00
+    }
+</style>
+
+{#flex-flow: column wrap;#方向和换行的简写模式}
+ {#行内元素也可使用flex 布局 diplay:inline-flex#}
+
+align-items属性定义项目在交叉轴上如何对齐。
+
+ box {
+  align-items: flex-start | flex-end | center | baseline | stretch;
+}
+
+justify-content属性定义了项目在主轴上的对齐方式。
+.box {
+  justify-content: flex-start | flex-end | center | space-between | space-around;
+}
+
+<body>
+    <div class="main">
+        <div class="child1"></div>
+        <div class="child1"></div>
+        <div class="child1"></div>
+        <div class="child1"></div>
+        <div class="child1"></div>
+    </div>
+    <div class="mian2">
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+    </div>
+</body>
+</html>
