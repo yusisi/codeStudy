@@ -247,4 +247,9 @@ object.onerror  performance.getEntries()  error事件捕获
 
 上报错误的基本原理：1.采用ajax通信方式上报  2.利用image对象上报   
 
-![images](https://github.com/yusisi/codeStudy/blob/master/images/11.png)  
+## 十二、职业规划
+1.目标：在业务上成为专家，技术上成为大牛  
+2.近阶段的目标：不断学习积累各方面的经验，以学习为主  
+3.长期目标：做几件有价值的事情，如开源作品，技术框架等  
+4.方式方法：先完成业务上的主要问题，做到极致，然后逐步向目标靠拢  
+
