@@ -5,7 +5,7 @@ jquery
 vue   
 react   
 angular   
-取一个，原理差不多。细节。vue源码分析。遇到什么问题，怎么解决。   
+取一个，原理差不多。细节。vue源码分析（http://hcysun.me/vue-design/art/4vue-normalize.html）。遇到什么问题，怎么解决。   
 
 node.js   
 (学好，或者不学)   
