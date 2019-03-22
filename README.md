@@ -1,5 +1,4 @@
 # codeStudy
-My Code during the study
 jquery
 源码博客文章，核心架构，事件委托，插件机制
 
@@ -38,6 +37,7 @@ flex布局，
 浮动布局，绝对定位
 
 盒模型：
+![images](https://github.com/yusisi/codeStudy/blob/master/images/1.png)
 
 /* 标准模型 */
 box-sizing:content-box;
@@ -56,7 +56,7 @@ bfc是一个页面上的独立的容器，外面的元素不会影响bfc里的�
 计算bfc高度的时候，浮动元素也会参与计算
 
 应用场景:
-  自适应两栏布局
+自适应两栏布局
 清除内部浮动 
 防止垂直margin重叠
 
@@ -108,7 +108,7 @@ srcElement, 这个指的是target, Firefox下的也是srcElement;
 http报文组成部分：请求行，请求头，空行，请求体，
 http方法：get,post,put,delete,head(获得报文首部)
 get、post区别：
-  GET在浏览器回退时是无害的，而POST会再次提交请求。
+GET在浏览器回退时是无害的，而POST会再次提交请求。
 GET产生的URL地址可以被Bookmark，而POST不可以。
 GET请求会被浏览器主动cache，而POST不会，除非手动设置。
 GET请求只能进行url编码，而POST支持多种编码方式。
@@ -129,6 +129,9 @@ http状态码：200 返回正常；304 服务端资源无变化，可使用缓�
 instanceof原理
 new运算符
 
+![images](https://github.com/yusisi/codeStudy/blob/master/images/2.png)
+
+![images](https://github.com/yusisi/codeStudy/blob/master/images/3.png)
 
 五、面向对象**（重要）
 1.构造函数继承：call apply 实现父类的继承（父级的构造函数所有属性指向子类的构造函数，缺点：不能实现继承原型对象的方法）
@@ -155,9 +158,10 @@ cors（支持同源和非同源策略）
 
 3.如何创建ajax
  XMLHttpRequest对象的工作流程
+ 
+![images](https://github.com/yusisi/codeStudy/blob/master/images/4.png)
 
-
-
+![images](https://github.com/yusisi/codeStudy/blob/master/images/5.png)
 
 兼容性处理
 事件的触发条件
@@ -167,13 +171,23 @@ cors（支持同源和非同源策略）
 http://blog.damonare.cn/2016/12/01/%E5%89%8D%E7%AB%AF%E8%B7%A8%E5%9F%9F%E6%95%B4%E7%90%86/
 JSONP（利用script标签的异步加载实现）
 
+![images](https://github.com/yusisi/codeStudy/blob/master/images/6.png)
+
 Hash
+
+![images](https://github.com/yusisi/codeStudy/blob/master/images/7.png)
 
 postMessage
 
+![images](https://github.com/yusisi/codeStudy/blob/master/images/8.png)
+
 WebSocket
 
+![images](https://github.com/yusisi/codeStudy/blob/master/images/9.png)
+
 CORS
+
+![images](https://github.com/yusisi/codeStudy/blob/master/images/10.png)
 
 七、安全类
 1.CSRF跨站请求伪造
@@ -235,3 +249,4 @@ object.onerror  performance.getEntries()  error事件捕获
 
 上报错误的基本原理：1.采用ajax通信方式上报  2.利用image对象上报
 
+![images](https://github.com/yusisi/codeStudy/blob/master/images/11.png)
