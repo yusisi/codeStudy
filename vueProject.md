@@ -40,3 +40,4 @@
 2.工作原理    
   History API   
   hash    
+![images](https://github.com/yusisi/codeStudy/blob/master/images/12.png)
