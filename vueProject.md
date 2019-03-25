@@ -1,5 +1,8 @@
 # 项目设计与原理分析
 
+https://doc.webpack-china.org/guides/production   
+http://hcysun.me/vue-design/art/    
+
 ## css模块化设计
 
 设计方法    
@@ -40,4 +43,4 @@
 2.工作原理    
   History API   
   hash    
-![images](https://github.com/yusisi/codeStudy/blob/master/images/12.png)
+![images](https://github.com/yusisi/codeStudy/blob/master/images/12.jpeg)
