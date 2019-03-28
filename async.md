@@ -61,3 +61,9 @@ async function init() {
   console.log(data.name)
 }
 ```
+>1. defer 属性
+><script src="file.js" defer></script> 
+>defer属性声明这个脚本中将不会有 document.write 或 dom 修改。
+>浏览器将会并行下载 file.js 和其它有 defer 属性的script，而不会阻塞页面后续处理。
+
+>每一个async属性的脚本都在它下载结束之后立刻执行，同时会在window的load事件之前执行。所以就有可能出现脚本执行顺序被打乱 的情况；每一个defer属性的脚本都是在页面解析完毕之后，按照原本的顺序执行，同时会在document的DOMContentLoaded之前执 行。
